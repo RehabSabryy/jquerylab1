@@ -1,0 +1,56 @@
+ /* First task styling */
+ body {
+    text-align: -webkit-center;
+ }
+ .container {
+    overflow: hidden;
+    width: 400px;
+
+}  
+.images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.task1-imgs {
+    width: 100%;
+}
+#stop , #resume , .task2 {
+    width: 113px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    color: white;
+    background-color: red;
+    border-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task2 {
+    background-color: blue;
+}
+/* end of first task styling */
+
+/* Second Task styling */
+
+.box img { 
+    width: 300px;
+}
+p {
+    width: 250px;
+}
+.task2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box {
+    background-color: #e1dede;;
+    border-radius: 10px;
+}
+.box .animation {
+    display: none;
+}
